@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #FBFBFA;
+}
+h1 
+{
+	font-family: 'Cardo', serif;
+	font-weight: 700;
+	font-size: 60px;	
+	color: #EF9587;
+	margin-left: 8px;
+	line-height: 70px;
+}
+
+h2
+{
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-size: 40px;
+	color: #EF9587;
+	margin-left: 15px;
+	line-height: 50px;
+	padding: 5px;
+  }
+
+p
+{
+	font-family: 'Cardo', serif;
+	font-style: normal;
+	font-size: 24px;
+	color: #5E4B8A;
+	margin-left: 80px;
+	line-height: 30px;
+	text-align: justify;
+  }
+ul.sidenav {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+    width: 15%;
+    background-color: #5E4B8A;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+	font-family: 'Cardo', serif;
+	font-size: 24px;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #FBFBFA;
+    padding: 20px 16px;
+    text-decoration: none;
+	font-family: 'Cardo', serif;
+}
+ 
+ul.sidenav li a.active {
+    background-color: #EF9587;
+	font-family: 'Cardo', serif;
+    color: #FBFBFA;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #FBFBFA;
+	font-family: 'Cardo', serif;
+    color: #5E4B8A;
+}
+
+div.content {
+    margin-left: 15%;
+    padding: 1px 16px;
+    height: auto;
+	background-color: #FBFBFA;
+	display : flex;
+	max-width: 80%;
+}
+
+
+div.text {
+}
+
+div.image {
+	margin: auto;
+	padding-left: 5px;
+	padding-top: 10%;
+}
+
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+@media screen and (max-width: 900px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
