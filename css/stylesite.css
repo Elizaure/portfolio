@@ -31,7 +31,7 @@
   }
 .content {
 	display: flex;
-	flex-direction: column
+	flex-direction: column;
 }
 .corps {
 	background-color: #FFFFFF;
@@ -45,7 +45,7 @@
 	font-size: 60px;	
 	color: #5E4B8A;
 	margin-left: 8px;
-	line-height: 70px;
+	line-height: 50px;
 }
 
 .corps h2
@@ -72,10 +72,12 @@
   }
 
 .divdroite {
-	width: 40%;
+	width: 20%;
 	float: right;
 	line-height: 30px;
 	padding-top: 20px;
+	align-content: space-around;
+	vertical-align: middle;
 }
 
 .divdroite p {
@@ -88,7 +90,7 @@
 
 .divgauche
 {
-	width: 55%;
+	width: 70%;
 	float: left;
 	font-family: 'Cardo', serif;
 	font-size: 23px;
@@ -133,7 +135,7 @@
 	margin-left: 15px;
 	line-height: 50px;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
   }
 .divdroite2 {
 	width: 30%;
