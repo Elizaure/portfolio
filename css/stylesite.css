@@ -1,7 +1,7 @@
 @charset "utf-8";
 .body {
 	font-family: 'Cardo', serif;
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
 }
 
 
@@ -29,8 +29,12 @@
 	margin-left: 8px;
 	line-height: 55px;
   }
+.content {
+	display: flex;
+	flex-direction: column
+}
 .corps {
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
 	float: left;
   	width: 100%;
 	  }
@@ -79,6 +83,7 @@
 	font-style: italic;
 	font-size: 23px;
 	color: #5E4B8A;
+	vertical-align: middle;
   }
 
 .divgauche
@@ -94,6 +99,71 @@
 	text-align: justify;
   }
 
+.corps2 {
+	background-color: #FFFFFF;
+	display:flex;
+  	width: 100%;
+	padding-left: 10px;
+	  }
+.corps2 h1 
+{
+	font-family: 'Cardo', serif;
+	font-weight: 700;
+	font-size: 40px;	
+	color: #5E4B8A;
+	margin-left: 8px;
+	line-height: 70px;
+}
+
+#ancre1
+{
+	font-family: 'Cardo', serif;
+	font-weight: 700;
+	font-size: 40px;	
+	color: #5E4B8A;
+	margin-left: 8px;
+	line-height: 70px;
+}
+.corps2 h2
+{
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-size: 30px;
+	color: #BC69A0;
+	margin-left: 15px;
+	line-height: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+  }
+.divdroite2 {
+	width: 30%;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	padding-left: 10px;
+}
+.divgauche2
+{
+	width: 60%;
+	font-family: 'Cardo', serif;
+	font-size: 22px;
+	color: #5E4B8A;
+	line-height: 26px;
+	vertical-align: top;
+	padding: 5px;
+	text-align: justify;
+  }
+.divdroite3 {
+	width: 30%;
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	padding-left: 10px;
+}
+
 .menu {
 	margin-bottom: 20px;
 }
@@ -105,15 +175,11 @@
 
 .menu p{
 	margin-right: 60px;
+	vertical-align: middle;
 }
 p.menu:hover {
 	background: linear-gradient(to right, rgba(94,75,138, 0.18), rgba(94,75,138, 0.68));
 }
-
-.contact {
-	float: left;
-}
-
 .contact p{
 	font-family: 'Cardo', serif;
 	font-size: 32px;
@@ -130,11 +196,3 @@ p.menu:hover {
 	margin-top: 10px;
 	color: #BC69A0;	
 }
-	
-footer
-{
-	font-family: 'Cardo', serif;
-	font-style: normal;
-	font-size:10px;
-	background-color: #FBFBFA;
-  }
