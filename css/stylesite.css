@@ -31,8 +31,8 @@
   }
 .corps {
 	background-color: #FFFFFF;
-	float: left;
   	width: 100%;
+	margin: auto;
 	  }
 .corps h1 
 {
@@ -68,8 +68,8 @@
   }
 
 .divdroite {
-	width: 40%;
-	float: right;
+	width: 20%;
+	float: left;
 	line-height: 30px;
 	padding-top: 20px;
 }
@@ -79,6 +79,7 @@
 	font-style: italic;
 	font-size: 23px;
 	color: #5E4B8A;
+	vertical-align: middle;
   }
 
 .divgauche
@@ -105,15 +106,15 @@
 
 .menu p{
 	margin-right: 60px;
-	vertical-align: center;
+	vertical-align: middle;
 	
 }
 p.menu:hover {
 	background: linear-gradient(to right, rgba(94,75,138, 0.18), rgba(94,75,138, 0.68));
 }
 
-.clear after {
-	content: '';
+.clearfix:after {
+	content: "";
 	display: table;
 	clear: both;
 }

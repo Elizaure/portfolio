@@ -44,13 +44,14 @@ ul.sidenav {
     list-style-type: none;
 	margin: 0;
 	padding: 0;
-    width: 15%;
+    width: 8%;
     background-color: #5E4B8A;
     position: fixed;
     height: 100%;
     overflow: auto;
 	font-family: 'Cardo', serif;
 	font-size: 24px;
+	align-content: center;
 }
 
 ul.sidenav li a {
@@ -59,6 +60,7 @@ ul.sidenav li a {
     padding: 20px 16px;
     text-decoration: none;
 	font-family: 'Cardo', serif;
+	align-content: center;
 }
  
 ul.sidenav li a.active {
@@ -74,7 +76,7 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 div.content {
-    margin-left: 15%;
+    margin-left: 10%;
     padding: 1px 2px;
     height: auto;
 	background-color: #FBFBFA;
@@ -87,14 +89,8 @@ div.text {
 
 div.image {
 	margin: auto;
-	padding-left: 5px;
+	padding-left: 5%;
 	padding-top: 10%;
-}
-
-.clear:after {
-	content: "";
-	display: block;
-	clear: both;
 }
 
 @media screen and (max-width: 900px) {

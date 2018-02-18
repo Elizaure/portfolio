@@ -58,16 +58,16 @@ Main Components
   text-transform: uppercase;
 }
 .cd-section:nth-of-type(2) > div {
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
 }
 .cd-section:nth-of-type(3) > div {
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
 }
 .cd-section:nth-of-type(4) > div {
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
 }
 .cd-section:nth-of-type(5) > div {
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
 }
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;
