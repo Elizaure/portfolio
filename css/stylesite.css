@@ -1,7 +1,7 @@
 @charset "utf-8";
 .body {
 	font-family: 'Cardo', serif;
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
 }
 
 
@@ -30,7 +30,7 @@
 	line-height: 55px;
   }
 .corps {
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
 	float: left;
   	width: 100%;
 	  }
@@ -105,11 +105,18 @@
 
 .menu p{
 	margin-right: 60px;
+	vertical-align: center;
+	
 }
 p.menu:hover {
 	background: linear-gradient(to right, rgba(94,75,138, 0.18), rgba(94,75,138, 0.68));
 }
 
+.clear after {
+	content: '';
+	display: table;
+	clear: both;
+}
 .contact {
 	float: left;
 }
@@ -136,5 +143,5 @@ footer
 	font-family: 'Cardo', serif;
 	font-style: normal;
 	font-size:10px;
-	background-color: #FBFBFA;
+	background-color: #FFFFFF;
   }
