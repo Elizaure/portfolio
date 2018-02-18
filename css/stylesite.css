@@ -182,6 +182,10 @@
 p.menu:hover {
 	background: linear-gradient(to right, rgba(94,75,138, 0.18), rgba(94,75,138, 0.68));
 }
+
+.contact {
+	background-color: #FFFFFF;
+}
 .contact p{
 	font-family: 'Cardo', serif;
 	font-size: 32px;
