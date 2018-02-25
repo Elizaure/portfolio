@@ -26,7 +26,7 @@ Main Components
 @media only screen and (min-width: 1000px) { body[data-hijacking="on"] {  overflow: hidden;}
 }
 
-.cd-section { height: 100vh;
+.cd-section { height: 110vh;
 }
 .cd-section:first-of-type > div {
 }
