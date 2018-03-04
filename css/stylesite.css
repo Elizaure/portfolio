@@ -1,6 +1,8 @@
 @charset "utf-8";
-.body { font-family: 'Cardo', serif; background-color: #FFFFFF;}
-
+.body { 
+	font-family: 'Cardo', serif; 
+	background-color: #FFFFFF;
+}
 
 .gif { background-size: cover; background-image: linear-gradient(rgba(94, 75, 138, 0.82), rgba(94, 75, 138, 0.82)), url(../gif_grue.gif);
 }
@@ -13,7 +15,11 @@
 { font-family: 'Cardo', serif; font-style: italic; font-size: 40px; color: #E7DBD8; margin-left: 8px; line-height: 55px;
   }
 .content { display: flex; flex-direction: column;}
-.corps { background-color: #FFFFFF; float: left; width: 100%;}
+.corps { 
+	background-color: #FFFFFF; 
+	float: left; 
+	width: 100%;
+}
 .corps h1 
 { font-family: 'Cardo', serif; font-weight: 700; font-size: 60px; color: #5E4B8A; margin-left: 8px; line-height: 50px;
 }
@@ -26,13 +32,33 @@
 { font-family: 'Cardo', serif; font-style: normal; font-size: 25px; color: #5E4B8A; margin-left: 80px; line-height: 33px; padding-top: 20px; margin-right: 30px;
   }
 
-.divdroite { width: 20%; float: right; line-height: 30px; padding-top: 20px; align-content: space-around; vertical-align: middle;
+.divdroite { 
+	width: 20%; 
+	float: right; 
+	line-height: 30px; 
+	padding-top: 20px; 
+	align-content: space-around; 
+	vertical-align: middle;
 }
 
-.divdroite p { font-family: 'Cardo', serif; font-style: italic; font-size: 23px; color: #5E4B8A; vertical-align: middle;
+.divdroite p { 
+	font-family: 'Cardo', serif; 
+	font-style: italic; 
+	font-size: 23px; 
+	color: #5E4B8A; 
+	vertical-align: middle;
   }
 
-.divgauche { width: 70%; float: left; font-family: 'Cardo', serif; font-size: 23px; color: #bd6aa0; line-height: 26px; vertical-align: top; padding: 5px; text-align: justify;
+.divgauche { 
+	width: 70%; 
+	float: left; 
+	font-family: 'Cardo', serif; 
+	font-size: 23px; 
+	color: #bd6aa0; 
+	line-height: 26px; 
+	vertical-align: top; 
+	padding: 5px; 
+	text-align: justify;
   }
 
 .corps2 { background-color: #FFFFFF; display:flex; width: 100%; padding-left: 10px;
@@ -53,7 +79,9 @@
 .menu img{ padding-right: 100px; padding: 10px;
 }
 
-.menu p{ margin-right: 60px; vertical-align: middle;
+.menu p{ 
+	margin-right: 60px; 
+	vertical-align: middle;
 }
 p.menu:hover { background: linear-gradient(to right, rgba(94,75,138, 0.18), rgba(94,75,138, 0.68));
 }
@@ -62,4 +90,12 @@ p.menu:hover { background: linear-gradient(to right, rgba(94,75,138, 0.18), rgba
 }
 .contact p{ font-family: 'Cardo', serif; font-size: 32px; color: #5E4B8A; padding-left: 10%; padding-bottom: 5%;
 }
-.contact ul{ font-family: 'Cardo', serif; font-size: 24px; padding-left: 20%; line-height: 24px; margin-bottom: 2px; margin-top: 10px; color: #BC69A0;}
+.contact ul{ 
+	font-family: 'Cardo', serif; 
+	font-size: 24px; 
+	padding-left: 20%; 
+	line-height: 24px; 
+	margin-bottom: 2px; 
+	margin-top: 10px; 
+	color: #BC69A0;
+}
