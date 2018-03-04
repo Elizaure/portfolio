@@ -69,7 +69,7 @@
   }
 .divdroite2 { width: 30%; padding-top: 20px; display: flex; flex-direction: column; justify-content: space-between; align-content: center; padding-left: 10px;
 }
-.divgauche2 { width: 60%; font-family: 'Cardo', serif; font-size: 22px; color: #5E4B8A; line-height: 26px; vertical-align: top; padding: 5px; text-align: justify;
+.divgauche2 { width: 50%; font-family: 'Cardo', serif; font-size: 22px; color: #5E4B8A; line-height: 26px; vertical-align: top; padding: 5px; text-align: justify; margin:auto;
   }
 .divdroite3 { width: 30%; padding-top: 20px; display: flex; flex-wrap: wrap; align-content: space-around; padding-left: 10px;
 }
