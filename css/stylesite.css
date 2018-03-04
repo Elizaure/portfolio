@@ -1,6 +1,5 @@
 @charset "utf-8";
-.body { font-family: 'Cardo', serif; background-color: #FFFFFF;
-}
+.body { font-family: 'Cardo', serif; background-color: #FFFFFF;}
 
 
 .gif { background-size: cover; background-image: linear-gradient(rgba(94, 75, 138, 0.82), rgba(94, 75, 138, 0.82)), url(../gif_grue.gif);
@@ -13,10 +12,8 @@
 #h2
 { font-family: 'Cardo', serif; font-style: italic; font-size: 40px; color: #E7DBD8; margin-left: 8px; line-height: 55px;
   }
-.content { display: flex; flex-direction: column;
-}
-.corps { background-color: #FFFFFF; float: left; width: 100%;
-	  }
+.content { display: flex; flex-direction: column;}
+.corps { background-color: #FFFFFF; float: left; width: 100%;}
 .corps h1 
 { font-family: 'Cardo', serif; font-weight: 700; font-size: 60px; color: #5E4B8A; margin-left: 8px; line-height: 50px;
 }
@@ -51,8 +48,7 @@
 .divdroite3 { width: 30%; padding-top: 20px; display: flex; flex-wrap: wrap; align-content: space-around; padding-left: 10px;
 }
 
-.menu { margin-bottom: 20px;
-}
+.menu { margin-bottom: 20px;}
 
 .menu img{ padding-right: 100px; padding: 10px;
 }
@@ -66,5 +62,4 @@ p.menu:hover { background: linear-gradient(to right, rgba(94,75,138, 0.18), rgba
 }
 .contact p{ font-family: 'Cardo', serif; font-size: 32px; color: #5E4B8A; padding-left: 10%; padding-bottom: 5%;
 }
-.contact ul{ font-family: 'Cardo', serif; font-size: 24px; padding-left: 20%; line-height: 24px; margin-bottom: 2px; margin-top: 10px; color: #BC69A0;	
-}
+.contact ul{ font-family: 'Cardo', serif; font-size: 24px; padding-left: 20%; line-height: 24px; margin-bottom: 2px; margin-top: 10px; color: #BC69A0;}
