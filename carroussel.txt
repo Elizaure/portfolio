@@ -1,4 +1,3 @@
-
 <div class="carrousel">
   <div class="carrousel-images">
     <img src="https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-22805.jpg" alt="">
